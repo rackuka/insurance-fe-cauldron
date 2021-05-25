@@ -29,12 +29,26 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "git+ssh://git@github.com/rackuka/insurance-fe-miniapp.git#9e8abf9597be56682cbbc0afaef73629ae89c3c5"
+                ],
+                "nativeDeps": [
+                  "ernnavigation-api-impl-native@1.6.6",
+                  "ernnavigation-api@1.3.0",
+                  "react-native-electrode-bridge@1.5.27",
+                  "react-native@0.64.0"
+                ],
+                "miniAppsBranches": [
+                  "git+ssh://git@github.com/rackuka/insurance-fe-miniapp.git#main"
+                ],
+                "ernVersion": "0.48.1"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "f01038fa-9a1e-4883-ae5e-590c99cb84de"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
