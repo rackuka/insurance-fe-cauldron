@@ -5,6 +5,23 @@
       "name": "geometr",
       "platforms": [
         {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.8.1",
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        },
+        {
           "name": "ios",
           "versions": [
             {
